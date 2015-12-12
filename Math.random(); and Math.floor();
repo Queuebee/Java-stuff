@@ -1,0 +1,35 @@
+
+
+/*
+Math.random(); gives either 0 or 1
+Math.floor(); rounds down a decimal number to a whole number
+
+for examples,
+
+Math.random(); 
+Math.random(); 
+Math.random(); 
+Math.random(); 
+Math.random(); 
+Math.random();
+Math.random(); 
+
+output could be
+0
+1
+1
+0
+1
+1
+1
+
+Math.floor(4,7); 
+
+outputs:
+4
+
+Math.floor(6,2);
+outputs:
+
+6
+*/
