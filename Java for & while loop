@@ -1,0 +1,32 @@
+
+//Variable
+
+  var whileVar = true;
+
+/*loop function:
+while 'forVar' is less than 3, this should loop.
+*/
+    var forLoop = function(forVar) {
+        for(forVar; forVar < 3; forVar++)   {
+                console.log("I'm the for-Loop!")
+        }
+    };
+
+
+/*while loop:
+while 'whileVar' equals the boolean 'true' state, this loop should loop.
+*/
+
+    var whileLoop = function() 
+    {
+        while(whileVar) {
+                console.log("I'm the while-Loop!")
+                whileVar = false;
+        }
+    };
+    
+    forLoop(0);
+    whileLoop();
+    
+    
+    //post-programming commentary: 'should' can be read as 'will'.
